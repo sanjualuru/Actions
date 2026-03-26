@@ -1,0 +1,6 @@
+name: demo
+on: first-event
+jobs:
+  demo:
+    - name: wishing
+      run: echo "Hi All"
