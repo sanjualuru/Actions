@@ -1,8 +1,13 @@
-name: demo
+name: practice
 on: workflow_dispatch
 jobs:
-  demo:
+  job1:
     runs-on: ubuntu-latest
     steps:
       - name: wishing
-        run: echo "Hi All"
+        run: echo "Hi all"
+  job2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: send off
+        run: echo "By all"
