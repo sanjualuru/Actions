@@ -1,5 +1,5 @@
 name: demo
-on: first-event
+on: workflow_dispatch
 jobs:
   demo:
     - name: wishing
