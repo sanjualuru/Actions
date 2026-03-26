@@ -2,5 +2,5 @@ name: demo
 on: workflow_dispatch
 jobs:
   demo:
-    -name: wishing
-     run: echo "Hi All"
+    - name: wishing
+      run: echo "Hi All"
