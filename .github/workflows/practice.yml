@@ -2,5 +2,7 @@ name: demo
 on: workflow_dispatch
 jobs:
   demo:
-    - name: wishing
-      run: echo "Hi All"
+    runs-on: ubuntu-latest
+    steps:
+      - name: wishing
+        run: echo "Hi All"
