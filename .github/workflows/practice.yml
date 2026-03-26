@@ -12,3 +12,9 @@ jobs:
     steps:
       - name: send off
         run: echo "By all"
+  job3:
+    needs: [job1, job2]
+    runs-on: ubuntu-latest
+    steps:
+      - name : completed all jobs
+        run: echo "All jobs execution completed"
